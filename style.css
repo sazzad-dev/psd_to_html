@@ -1,25 +1,75 @@
-body{
-    margin: 0;
-}
-.header{
+.header {
     background: black;
 }
 
-.headerTop{
+
+/* .navbar-brand a {} */
+
+.navbar-brand {
+    background-color: #e96e00;
+    width: 13.06%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+.navbar {
+    width: 1133px;
+}
+
+.collapse {
+    width: 86.94%;
+    margin-top: 0px;
+}
+
+.navabar-nav {
+    width: 65.57%;
+}
+
+.form-inline {
+    width: 14%;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(233, 110, 0, .5);
+    border-color: rgb(233, 110, 0, .1)
+}
+
+.navbar-toggler {
+    background-color: #e96e00;
+    border: 1px solid #e96e00;
+}
+
+.form-control {
+    border: none;
+}
+
+
+/* .navbar {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} */
+
+.headerTop {
     overflow: hidden;
-    background:#ff6600 ;
+    background: #ff6600;
 }
-.text{
-  width: 50%;
-  float: left;
-  display: block;
+
+.text {
+    width: 50%;
+    float: left;
+    display: block;
 }
-.socialIcon{
+
+.socialIcon {
     display: block;
     width: 50%;
     float: right;
 }
-
 
 .fab {
     padding: 5px;
@@ -28,78 +78,34 @@ body{
     text-align: center;
     text-decoration: none;
     margin: 0px 0px;
-  }
-  
-  .fab:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook-f {
-   
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-f {
     color: white;
-  }
-  
-  .fa-twitter {
-   
+}
+
+.fa-twitter {
     color: white;
-  }
-  .fa-pinterest-p {
-    
+}
+
+.fa-pinterest-p {
     color: white;
-  }
-  .fa-linkedin-in {
-    
+}
+
+.fa-linkedin-in {
     color: white;
-  }
- 
- .text1 p{
+}
+
+.text1 p {
     display: inline;
     color: #ffffff;
     padding: 18px;
- }
- .links{
-     overflow: hidden;
-     background: #0d91a8;
-     width: 40%;
-     float: right;
-     display: inline;
- }
- .headerBottom{
-    overflow: hidden;
 }
- .links a{
-    float: left;
-    color:  #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
- }
- .links a:hover {
-    
-    color: #ff6600;
-  }
-  .links input[type=text] {
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: none;
-    font-size: 17px;
-  }
-  
-  .text1{
-    width: 70%;
-  }
-  .button{
-    width: 25%;
-  }
- .logo{
-   width: 10%;
- }
- .menubar{
-  width: 85%;
- }
- .input{
-   width: 15%;
- }
+
+.headerMid {
+    margin-bottom: 0;
+}
